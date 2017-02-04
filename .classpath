@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/My Documents/workspace/DownloadGoogleTop/libs/commons-io-2.5.jar" sourcepath="D:/开源工具类库/apache/commons-io-2.5-src.zip"/>
+	<classpathentry kind="lib" path="D:/My Documents/workspace/DownloadGoogleTop/libs/jsoup-1.8.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
