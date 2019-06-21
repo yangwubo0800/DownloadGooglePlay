@@ -38,6 +38,9 @@ https://play.google.com/store/apps/collection/topselling_free
 ---------功能优化点---------
 
 1、将信息源头获取之后，直接使用下载地址
+
 2、使用双源下载，提高下载成功率
+
 3、使用csv文件记录下载中的每条记录状态
+
 4、开启多线程下载，加快下载进度
