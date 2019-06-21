@@ -4,12 +4,7 @@ the tool can parser google play website and then download application atuomatica
 ---------项目描述---------
 
 此项目可以生产jar包，然后在JDK环境下直接运行此jar包可以抓取Google play 上面排名前1000的应用，当然运行的前提条件是要能访问谷歌。
-抓取的信息如下：
-app 包名
-下载链接
-应用名
-版本号
-下载量
+抓取的信息如下：app 包名、下载链接、应用名、版本号、下载量
 
 
 ---------实现方法---------
@@ -44,3 +39,18 @@ https://play.google.com/store/apps/collection/topselling_free
 3、使用csv文件记录下载中的每条记录状态
 
 4、开启多线程下载，加快下载进度
+
+
+
+
+--------使用注意点----------
+导出jar, 注意有main文件描述打包资源：
+
+Manifest-Version: 1.0
+
+Sealed: true
+
+Class-Path: libs/commons-io-2.5.jar libs/jsoup-1.8.3.jar  
+
+Main-Class: download.DownloadTop
+
